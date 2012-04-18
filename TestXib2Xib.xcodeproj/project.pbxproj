@@ -15,6 +15,9 @@
 		C45F9C46153F0C490088687B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45F9C45153F0C490088687B /* AppDelegate.m */; };
 		C45F9C49153F0C490088687B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45F9C48153F0C490088687B /* ViewController.m */; };
 		C45F9C4C153F0C490088687B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45F9C4A153F0C490088687B /* ViewController.xib */; };
+		C45F9C55153F0CB00088687B /* AComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C45F9C54153F0CB00088687B /* AComponent.m */; };
+		C45F9C57153F0E930088687B /* AComponent1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45F9C56153F0E930088687B /* AComponent1.xib */; };
+		C45F9C59153F0EA30088687B /* AComponent2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45F9C58153F0EA30088687B /* AComponent2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,19 @@
 		C45F9C35153F0C490088687B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C45F9C37153F0C490088687B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C45F9C39153F0C490088687B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C45F9C3D153F0C490088687B /* TestXib2Xib-Info.plist */ = {isa = PBXFileReference; path = "TestXib2Xib-Info.plist"; sourceTree = "<group>"; };
+		C45F9C3D153F0C490088687B /* TestXib2Xib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestXib2Xib-Info.plist"; sourceTree = "<group>"; };
 		C45F9C3F153F0C490088687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C45F9C41153F0C490088687B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C45F9C43153F0C490088687B /* TestXib2Xib-Prefix.pch */ = {isa = PBXFileReference; path = "TestXib2Xib-Prefix.pch"; sourceTree = "<group>"; };
-		C45F9C44153F0C490088687B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C45F9C43153F0C490088687B /* TestXib2Xib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestXib2Xib-Prefix.pch"; sourceTree = "<group>"; };
+		C45F9C44153F0C490088687B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C45F9C45153F0C490088687B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C45F9C47153F0C490088687B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C45F9C47153F0C490088687B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C45F9C48153F0C490088687B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C45F9C4B153F0C490088687B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C45F9C53153F0CB00088687B /* AComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AComponent.h; sourceTree = "<group>"; };
+		C45F9C54153F0CB00088687B /* AComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AComponent.m; sourceTree = "<group>"; };
+		C45F9C56153F0E930088687B /* AComponent1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AComponent1.xib; sourceTree = "<group>"; };
+		C45F9C58153F0EA30088687B /* AComponent2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AComponent2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 		C45F9C3B153F0C490088687B /* TestXib2Xib */ = {
 			isa = PBXGroup;
 			children = (
+				C45F9C52153F0C850088687B /* View */,
 				C45F9C44153F0C490088687B /* AppDelegate.h */,
 				C45F9C45153F0C490088687B /* AppDelegate.m */,
 				C45F9C47153F0C490088687B /* ViewController.h */,
@@ -96,6 +104,17 @@
 				C45F9C43153F0C490088687B /* TestXib2Xib-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C45F9C52153F0C850088687B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C45F9C53153F0CB00088687B /* AComponent.h */,
+				C45F9C54153F0CB00088687B /* AComponent.m */,
+				C45F9C56153F0E930088687B /* AComponent1.xib */,
+				C45F9C58153F0EA30088687B /* AComponent2.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +170,8 @@
 			files = (
 				C45F9C40153F0C490088687B /* InfoPlist.strings in Resources */,
 				C45F9C4C153F0C490088687B /* ViewController.xib in Resources */,
+				C45F9C57153F0E930088687B /* AComponent1.xib in Resources */,
+				C45F9C59153F0EA30088687B /* AComponent2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +185,7 @@
 				C45F9C42153F0C490088687B /* main.m in Sources */,
 				C45F9C46153F0C490088687B /* AppDelegate.m in Sources */,
 				C45F9C49153F0C490088687B /* ViewController.m in Sources */,
+				C45F9C55153F0CB00088687B /* AComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
