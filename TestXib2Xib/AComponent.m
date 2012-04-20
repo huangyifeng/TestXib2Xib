@@ -38,13 +38,14 @@
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
+    NSLog(@"initWithCoder:");
     self = [super initWithCoder:aDecoder];
     if (self) {
         if (1 == self.tag) {
-            self = [self viewWithNibName:@"AComponent1"];
+            [self addSubview:[self viewWithNibName:@"AComponent1"]];
         }
         else if (2 == self.tag) {
-            self = [self viewWithNibName:@"AComponent2"];
+            [self addSubview:[self viewWithNibName:@"AComponent2"]];
         }
     }
     return self;
